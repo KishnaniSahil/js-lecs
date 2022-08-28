@@ -56,9 +56,15 @@ clickbtn.addEventListener('click',(e)=>
 // }
 // );
 const ip=document.querySelector('#name')
-ip.addEventListener('input',(e)=>
+ip.addEventListener('change',(e)=>
 {
     const para=document.querySelector('#para')
     para.innerHTML =e.target.value
 })
+// const ip=document.querySelector('#name')
+// ip.addEventListener('input',(e)=>
+// {
+//     const para=document.querySelector('#para')
+//     para.innerHTML =e.target.value
+// })
 

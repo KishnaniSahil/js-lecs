@@ -1,0 +1,14 @@
+.row a{
+    text-decoration: none;
+    /* display: flex;
+    float: right; */
+    /* align-content: flex-end;
+    letter-spacing: 3px;
+    white-space: 3px; */
+    padding: 2px 4px;
+}
+.col-6 >a{
+    display: flex;
+    justify-content:right;
+    flex-wrap: nowrap;
+}

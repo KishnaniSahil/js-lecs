@@ -1,0 +1,52 @@
+
+body{
+    background-image: linear-gradient(to bottom right,rgba(79,51,89),rgba(51,34,21));
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+}
+.main{
+    flex-direction: row;
+    padding: 40px 40px;
+    box-shadow: 0 0 30px black; 
+    cursor: pointer;   
+    font-size: 30px;
+}
+#text{
+    border: 2px black solid;
+    padding: 20px 65px;
+}
+.row{
+    padding-top: 10px;
+}
+.row1{
+    padding-top: 10px;
+}
+.row2{
+    padding-top: 10px;
+}
+.row3{
+    padding-top: 10px;
+    /* padding-left: 5px; */
+}
+#mst{
+    background-color: teal;
+    color: white;
+}
+button{
+    height: 60px;
+    width: 60px;
+    border: 0;
+    border-radius: 30px;
+    margin: 5px;
+    cursor: pointer;
+    transition: all 200ms ease;
+    font-weight: 20px;
+    font-size: larger;
+}
+#c{
+    color: orangered;;   
+}
+button:hover{
+    transform: scale(1.15);
+}

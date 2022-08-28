@@ -1,0 +1,56 @@
+jpmc-projects
+ivp-oops
+apptitude
+cp
+quantify-python
+type inferencing if we use any in ts
+slug concept priya di
+tsc --watch imp command
+key tracker
+wrapper class
+tsc --init
+tsc filename.ts
+lec 7
+TYPESCRIPT CONFIGURATION FILES
+rootDir .json file m jaake ./src folder banaya usme ts file daali
+fir .json m he outDir uncomment kiya outDir ./dist m ts ki js file banaake deta h
+Noimplicitany:
+strict rules
+x?.
+function check(x?:String )
+{
+    if(x?.toLowerCase)
+    {
+        return "hi"
+    }
+    return "x"
+}
+isme kasie ?.daala h 20line p if nai daala toh error dega kyu idr bol reh h database se jo b vlue aaye usko lc m convert kar
+what if notdefined aaya toh isliye ? wo ignore krdega
+no unused parameters
+Topic destructuring
+Rest operaator ,spread operator,shallow copy deep copy
+let arr1=[32,4,56]
+let arr2=[...arr1]
+arr2[2]=0
+console.log(arr1,arr2)
+example
+const rectangle={
+    width:200,
+    height:150,
+    area:100,
+    inobj:{
+        name:"Sahil"
+
+    }
+}
+const rectangle2={
+    ...rectangle
+}
+console.log(rectangle,rectangle2)
+rectangle2.height=280
+rectangle2.inobj.name="Sagar"
+if maine kuch change kiya toh wo dono obj k liye hoga kyuki ek he obj ko refer kr reh h spreadoperator use kiya
+...does shallow copy
+...r restcopy
+
